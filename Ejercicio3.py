@@ -36,6 +36,7 @@ print("El producto mas barato es:", mas_barato)
 categorias = []
 c = []
 for p in lista:
+    categoria = p[2]
     if categorias.count(categoria)==0:
         categorias.append(categoria)
         c.append(0)
